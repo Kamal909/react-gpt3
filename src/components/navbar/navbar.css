@@ -53,8 +53,11 @@
     font-family:  var(--font-family);
     left: 1153px;
     top: 55px;
+    line-height:25px;
     font-weight: 500px;
     border:0px;
-
+    font-size: 18px;
+    border-radius: 5px;
+    outline:none;
 }
 
