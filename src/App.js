@@ -1,23 +1,23 @@
 import React from 'react';
 
-import {  Header } from './containers';
-//import { Cta, Brand, Navbar } from './components';
+import {  Header, WhatGPT3, Possibility, Blog, Footer, Feature} from './components/containers';
+import { Cta, Brand, Navbar } from './components';
 
 import './App.css';
 
 const App = () => (
   <div className="App">
     <div className="gradient__bg">
-      {/* <Navbar /> */}
-      <Header />
-    </div>
+    <Navbar /> 
+    <Header />
     {/* <Brand />
     <WhatGPT3 />
-    <Features />
+    <Feature />
     <Possibility />
     <Cta />
-    <Blog />
-    <Footer /> */}
+    <Blog /> */}
+    {/* <Footer />  */}
+    </div>
   </div>
 );
 
