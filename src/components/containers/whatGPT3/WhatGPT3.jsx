@@ -10,14 +10,15 @@ const WhatGPT3 = () => {
     <div className='gpt3__whatgpt3 section__margin' id="whpt3">
       <div className='gpt3__whatgpt3-feature'>
         <Feature title="What is GPT-3" text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-        Lorem Ipsum is simply dummy text of the printing and typesetting industry"/>
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry  Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum is simply dummy text of the printing and typesetting industry done."/>
      </div>
       <div className='gpt3__whatgpt3-heading'>
         <h1 className='gradient__text'>The possibilites are beyond your imagination</h1>
         <p>Explore The Library</p>
       </div>
-      <div className='gpt3__whatgpt3-container'>
-         <Feature title="Chatbots" text="Lorem Ipsum is simply dummy text of the printing and typesetting industry."/>
+  {/* <div className='gpt3__whatgpt3-container'> */}
+         <div className='gpt3__features-container__feature'>
+         <Feature title="Chatbots" text="Lorem Ipsum is simply dummy text of the printing and typesetting industry.  Lorem Ipsum is simply dummy text of the printing and typesetting industry."/>
         <Feature title="Knowledgebase" text="Lorem Ipsum is simply dummy text of the printing and typesetting industry."/>
         <Feature title="Education" text="Lorem Ipsum is simply dummy text of the printing and typesetting industry."/> 
       </div>
