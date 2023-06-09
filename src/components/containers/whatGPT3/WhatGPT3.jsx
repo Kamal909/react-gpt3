@@ -16,8 +16,8 @@ const WhatGPT3 = () => {
         <h1 className='gradient__text'>The possibilites are beyond your imagination</h1>
         <p>Explore The Library</p>
       </div>
-  {/* <div className='gpt3__whatgpt3-container'> */}
-         <div className='gpt3__features-container__feature'>
+      <div className='gpt3__whatgpt3-container'>
+         {/* <div className='gpt3__features-container__feature'> */}
          <Feature title="Chatbots" text="Lorem Ipsum is simply dummy text of the printing and typesetting industry.  Lorem Ipsum is simply dummy text of the printing and typesetting industry."/>
         <Feature title="Knowledgebase" text="Lorem Ipsum is simply dummy text of the printing and typesetting industry."/>
         <Feature title="Education" text="Lorem Ipsum is simply dummy text of the printing and typesetting industry."/> 
