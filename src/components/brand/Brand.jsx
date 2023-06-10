@@ -1,11 +1,11 @@
 import React from 'react';
 import './brand.css';
-import {google, slack, atlassian,dropbox, shopify} from './import.js';
+import {google, slack, atlassian, dropbox, shopify} from './import.js';
 
 const Brand = () => {
   return (
     <div className='gpt3__brand section_padding'>
-      <div>
+       <div>
        <img src={google} alt='google'/>
       </div>
       <div>
@@ -19,7 +19,7 @@ const Brand = () => {
       </div>
       <div>
       <img src={shopify} alt='shopify'/> 
-    </div>
+    </div> 
     </div>
   )
 }
