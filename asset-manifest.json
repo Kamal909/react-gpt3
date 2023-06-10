@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/react-gpt3/static/css/main.73a893c9.css",
+    "main.js": "/react-gpt3/static/js/main.f337ba8d.js",
+    "static/media/Headerl.png": "/react-gpt3/static/media/Headerl.148aa45ce386309b8a70.png",
+    "static/media/poss.png": "/react-gpt3/static/media/poss.80ea83936af29a406c11.png",
+    "static/media/blog01.png": "/react-gpt3/static/media/blog01.e9958704f3299c346752.png",
+    "static/media/blog03.png": "/react-gpt3/static/media/blog03.c43550e6bc103e5bf412.png",
+    "static/media/blog04.png": "/react-gpt3/static/media/blog04.5c5ea549195ff2f0cbdf.png",
+    "static/media/blog02.png": "/react-gpt3/static/media/blog02.21e358d4193494b4c12f.png",
+    "static/media/Group81.png": "/react-gpt3/static/media/Group81.638fb1cc6864f41cdb4d.png",
+    "static/media/dropbox.png": "/react-gpt3/static/media/dropbox.5ed6164189371ddd0b8a.png",
+    "static/media/atlassian.png": "/react-gpt3/static/media/atlassian.04641ad8e47ec224f08c.png",
+    "static/media/GPT.svg": "/react-gpt3/static/media/GPT.9430ccf3bed783e63dc63bdfc65ee445.svg",
+    "index.html": "/react-gpt3/index.html",
+    "main.73a893c9.css.map": "/react-gpt3/static/css/main.73a893c9.css.map",
+    "main.f337ba8d.js.map": "/react-gpt3/static/js/main.f337ba8d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.73a893c9.css",
+    "static/js/main.f337ba8d.js"
+  ]
+}
