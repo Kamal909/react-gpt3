@@ -22,7 +22,7 @@ const Navbar = () => {
         <div className="gpt3__navbar-links_container">
           <Menu />
           <p><a href="#home">Home</a></p>
-          <p><a href="#whatgpt3ome">What is GPT</a></p>
+          <p><a href="#whatgpt3">What is GPT</a></p>
           <p><a href="#features">Case Studies</a></p>
           <p><a href="#blog">Library</a></p>
         </div>
