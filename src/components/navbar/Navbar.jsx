@@ -6,25 +6,22 @@ import logo from '../../assets/GPT.svg';
 const Menu = () => (
   <>
   <p><a href="#home">Home</a></p>
-  <p><a href="#home">What is GPT</a></p>
-  <p><a href="#home">Case Studies</a></p>
-  <p><a href="#home">Library</a></p>
+  <p><a href="#whatgpt3">What is GPT</a></p>
+  <p><a href="#features">Case Studies</a></p>
+  <p><a href="#blog">Library</a></p>
   </>
 )
+
 const Navbar = () => {
   const[ toggleMenu, setToggleMenu] = useState(false);
   return (
     <div className="gpt3__navbar">
       <div className="gpt3__navbar-links">
         <div className="gpt3__navbar-links__logo">
-          <img src={logo} alt="logo" />
+          <img src={logo} alt="GPT-3 Logo" />
         </div>
         <div className="gpt3__navbar-links_container">
           <Menu />
-          <p><a href="#home">Home</a></p>
-          <p><a href="#whatgpt3">What is GPT</a></p>
-          <p><a href="#features">Case Studies</a></p>
-          <p><a href="#blog">Library</a></p>
         </div>
       </div>
        <div className="gpt3__navbar-sign">
@@ -38,9 +35,10 @@ const Navbar = () => {
              }
              {toggleMenu && (
               <div className="gpt3__navbar-menu_container scale-up-center">
-                <div className="gpt3__navbar-menu_container-links"></div>
-                <Menu />
-                <div className="gpt3__navbar-menu">
+                <div className="gpt3__navbar-menu_container-links">
+                  <Menu />
+                </div>
+                <div className="gpt3__navbar-menu_container-links-sign">
                   <p>Sign in</p>
                   <button type ="button">Sign up</button>
                 </div>
